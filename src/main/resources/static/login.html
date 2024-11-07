@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Adicionando FontAwesome -->
+</head>
+
+<body>
+
+    <header>
+        <a href="" class="logo"><i class="fas fa-utensils"></i>Otneve</a>
+        <nav class="navbar">
+            <a href="/" class="active">Início</a>
+            <a href="/eventos">Eventos</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="" class="fas fa-heart"></a>
+            <a href="" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <form class="login-form" id="login-form">
+        <div class="contImage">
+            <img src="imagens/image-login.jpg" alt="image-login">
+        </div>
+        <div class="contLogin">
+            <div class="login">
+                <h2>Login</h2>
+                <span> Seja bem-vindo ao nosso site, Otneve agradece a sua preferência. </span>
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required placeholder="Digite sua senha">
+                </div>
+                <div class="spanCheck">
+                    <input type="checkbox" class="checkbox" id="remember-me">
+                    <label for="remember-me">Lembre-me</label>
+                </div>
+                <button type="submit">Entrar</button>
+                <div class="opcoes-adicionais">
+                    <a href="./cadastro.html">Novo usuário? Cadastrar-se</a>
+                    <a href="./recuperar-senha.html">Esqueceu sua senha?</a>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script src="./js/login.js"></script> <!-- Link para o arquivo JS -->
+</body>
+
+</html>
